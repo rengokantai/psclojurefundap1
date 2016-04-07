@@ -1,0 +1,6 @@
+(ns sequences.seqinout)
+(print (take 3 (range)))
+(print (drop 3 (range 7)))
+(print (map #(* % %) [0 1 2]))
+(print (filter even? (range 8)))
+(print (apply str (interpose "," (range 8))))

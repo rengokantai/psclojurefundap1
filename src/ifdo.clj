@@ -1,0 +1,6 @@
+ (ns ifdo)
+(if (even? 5)
+  (do (println "even")
+      true)
+  (do (println "odd")
+      false))
